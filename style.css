@@ -1,0 +1,63 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 6px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="number"]:focus, select:focus {
+    outline: none;
+    border: 1px solid #007bff;
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  #accelerationResult, #forceResult {
+    font-weight: bold;
+  }
+/* styles.css */
+
+
+.result-container {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-label {
+    font-weight: bold;
+    color: #333;
+  }
+    
