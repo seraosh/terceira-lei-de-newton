@@ -1,18 +1,20 @@
-# Calculadora da Terceira Lei de Newton
-> Este repositório contém uma calculadora web simples que utiliza HTML, CSS e JavaScript para calcular a aceleração e a força entre dois blocos (A e B) com base na Terceira Lei de Newton, também conhecida como Lei da Ação e Reação.
-
-## Características
-+ Interface amigável e fácil de usar
-+ Entrada de dados para força aplicada e massas dos blocos A e B
-+ Cálculo da aceleração dos blocos com base na força aplicada e massas dos blocos
-+ Cálculo da força entre os blocos A e B, considerando a Terceira Lei de Newton
+# Calculadora da Terceira Lei de Newton - Exemplo dos Blocos A e B
+> Este projeto é uma calculadora simples baseada na web, que utiliza a Terceira Lei de Newton para calcular a aceleração e a força entre dois blocos (A e B). Além disso, o projeto também integra o modelo GPT-3 da OpenAI para fornecer feedback sobre os resultados.
 
 ## Como usar
-1. Clone o repositório ou baixe os arquivos em seu computador.
-2. Abra o arquivo index.html no seu navegador.
-3. Insira a força aplicada e as massas dos blocos A e B nos campos correspondentes.
-4. Clique no botão "Calcular" para obter os resultados.
-5. Os resultados da aceleração e da força entre os blocos serão exibidos abaixo do formulário.
-
+1. Abra o arquivo index.html em um navegador da web moderno (recomendamos o Google Chrome, Mozilla Firefox ou Microsoft Edge).
+2. Insira os valores de força aplicada (N), massa do bloco A (kg) e massa do bloco B (kg) nos campos apropriados.
+3. Clique no botão "Calcular" para obter a aceleração resultante (m/s²) e a força entre os blocos A e B (N).
+4. O feedback do GPT-3 será exibido logo abaixo dos resultados.
+## Requisitos
++ Navegador da web moderno com suporte ao JavaScript.
++ Biblioteca Axios incluída no projeto para realizar chamadas de API.
++ Chave de API válida para o OpenAI GPT-3.
+## Tecnologias utilizadas
++ HTML
++ CSS
++ JavaScript
++ OpenAI GPT-3 API
++ Axios
 ## Contribuição
 Contribuições são bem-vindas. Sinta-se à vontade para abrir uma issue ou enviar um pull request com suas sugestões ou melhorias para o projeto.
