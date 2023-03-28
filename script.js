@@ -10,7 +10,7 @@ function calculateAccelerationAndForceBetweenObjects(forceApplied, massA, massB)
   }
   
   async function getGPT3Feedback(prompt) {
-    const apiKey = "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";
+    const apiKey = "API_KEY";
     const apiUrl = "https://api.openai.com/v1/completions";
   
     const headers = {
